@@ -25,8 +25,10 @@ Let's look to how use!
 
     $convert= $LyImage->convert("myimage.png"); // we must write new exention with file name.
     
-    //In addition, if you want compress when converting, watch this way.
-    $convert= $LyImage->convert("myconvertimage.png",50); // You should write between 1-100 value for compress when converting.
+    //In addition, if you want compress when converting, watch this way. You should 
+    write between 1-100 value for compress when converting.
+    $convert= $LyImage->convert("myconvertimage.png",50); 
+
     
 
 > If you want learn file type, you should use this function.
